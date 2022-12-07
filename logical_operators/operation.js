@@ -36,12 +36,12 @@ const cola = 0;
 nuggets = 2;
 
 if(hamburger === 3 && cola === 2 || fries === 3 && nuggets){
-    console.log('Все сыт')
+    console.log('Все сыт');
 }else {
-    console.log('Мы уходим')
+    console.log('Мы уходим');
 }
 
-console.log(hamburger || cola || fries)
+console.log(hamburger || cola || fries);
 
 
 let johnReport, alexReport, samReport, mariaReport = 'done';
